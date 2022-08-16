@@ -1,0 +1,7 @@
+{
+  "extends": "cypress/cypress.json",
+  "baseUrl": "https://www.saucedemo.com/",
+  "env": {
+    "dataEnv": "qa"
+  }
+}

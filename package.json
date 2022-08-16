@@ -1,0 +1,33 @@
+{
+  "name": "cypress-boilerplate-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cy:dev:open": "cypress open --env configFile=dev",
+    "cy:verify": "cypress verify",
+    "cy:qa:open": "cypress open --env configFile=qa",
+    "cy:uat:open": "cypress open --env configFile=uat",
+    "cy:dev:run": "cypress run --env configFile=dev",
+    "cy:qa:run": "cypress run --env configFile=qa",
+    "cy:uat:run": "cypress run --env configFile=uat",
+    "cy:dev:run:ci": "cypress run --reporter junit --reporter-options mochaFile=results/my-test-output-[hash].xml",
+    "eslint:js": "eslint . --ext .js",
+    "postinstall": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://stash.ecx.io/scm/qa/cypress-boilerplate-project.git"
+  },
+  "author": "qSec",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^9.5.0"
+  },
+  "devDependencies": {
+    "cypress-mochawesome-reporter": "^2.3.0",
+    "eslint": "^8.7.0",
+    "eslint-plugin-cypress": "^2.12.1",
+    "husky": "^7.0.4"
+  }
+}
