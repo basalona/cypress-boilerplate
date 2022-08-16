@@ -9,7 +9,7 @@ This repository is a minimal, optimized boilerplate Cypress project based on the
 
 ## Installation
 
-1. Clone the repository with `git clone https://stash.ecx.io/scm/qa/cypress-boilerplate-project.git`
+1. Clone the repository with `git clone https://github.com/basalona/cypress-boilerplate.git`
 2. Navigate to the root of the repository
 3. Install Cypress and other project dependencies with the terminal command `npm install`
 4. Start Cypress or execute tests as described in the "Run Config" section of the readme
